@@ -133,7 +133,7 @@ return [
     | this array to grant expanded functionality to your applications.
     |
     */
-
+    'depug'=>true,
     'providers' => [
 
         /*
@@ -161,7 +161,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
+        Illuminate\Database\QueryException::class,
         /*
          * Package Service Providers...
          */
